@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="helo bg-black" style="background-image: url(background.jpg);height: 100vh;background-size: cover;">
+      
+      <div class="accordion accordion-flush container d-block justify-content-center"style = "padding-top:350px;" id="accordionFlushExample ">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed "style="background-color:#18446B;color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Discuss the scope of var, let, and const
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse bg-dark text-light" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><code><h5>Var:</h5></code>
+              <p><i class="fa-solid fa-circle fa-2xs" style="color:#D63384;"></i>  Var is a function that helps us to declare variables.It can be access through anywhere.
+              <code>Exaple -</code> string,number,boolean etc.
+            </p>
+            <code><h5>Let: </h5></code>
+            <p><i class="fa-solid fa-circle fa-2xs" style="color: #D63384;"></i>  Let is similar to var.But declaring a variable with let are block-scoped. </p>
+            <code><h5>Const:</h5></code>
+            <p><i class="fa-solid fa-circle fa-2xs" style="color: #D63384;"></i> Const is also a way of declaring variable.But this time it can't be changed </p>
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed"style="background-color:#18446B;color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Tell us the use cases of null and undefined
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse bg-dark text-light" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <code><h5>Null: </h5></code>
+              <p><i class="fa-solid fa-circle fa-2xs" style="color: #D63384;"></i>  Null is a assignment value. It can be assign to a variable as a representation of no value. </p>
+              <code><h5>Undefined:</h5></code>
+              <p><i class="fa-solid fa-circle fa-2xs" style="color: #D63384;"></i>  Undefine is the variable has been declare but it's value isn't assigned. </p> 
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed"style="background-color:#18446B;color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What do you mean by REST API?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse bg-dark text-light " data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><code><h5>REST API:</h5></code>
+              <p><i class="fa-solid fa-circle fa-2xs" style="color: #D63384;"></i> API or application programming interface is a set of rules that define how application or device can be connect to and communicate with each other. A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
