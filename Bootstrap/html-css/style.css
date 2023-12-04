@@ -1,0 +1,72 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: limegreen;
+}
+.logo{
+    width: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    display: flex;
+    list-style: none;
+    gap : 20px;
+    font-size: 23px;
+    color: white ;
+    
+}
+.doctor-png{
+    width: 120%;
+}
+.banner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 120px;
+    font-weight: bold;
+    color:lightseagreen; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.dex{
+    font-size: 23px;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.app{
+    background-color: limegreen;
+}
+.doc{
+    background-color: lightseagreen;
+}
+.services-card{
+    width: 300px;
+    height: 330px;
+    box-shadow: 8px 8px 20px grey;
+    border-radius: 10px;
+    text-align: center;
+    padding : 20px;
+    margin: 30px;
+}
+.services-img{
+    width:150px;
+   
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
