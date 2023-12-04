@@ -1,0 +1,3 @@
+133	Bubt	Dhaka to noakhali	   30	500	9.00a.m	6.00p.m
+1220	Hanif	Dhaka to nata	   30	5000	8:00a.m	12:00p.m
+1	hanif	dhaka to maymanshig	   30	450	9ta	6ta
