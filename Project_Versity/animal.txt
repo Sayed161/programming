@@ -1,0 +1,14 @@
+dog
+cat
+cow
+horse
+elephant
+lion
+tiger
+giraffe
+deer
+rabbit
+goat
+monkey
+
+monkey

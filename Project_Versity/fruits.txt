@@ -1,0 +1,12 @@
+apple
+banana
+cherry
+grape
+orange
+strawberry
+coco
+nut
+guava
+jackfruit
+cherry
+watermalon
